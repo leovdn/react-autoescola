@@ -1,12 +1,12 @@
 import React from "react";
 
-import Hero from "../components/Hero";
-import BgHighway from "./assets/bg-highway.jpg";
-import BgGirls from "./assets/bg-girls.jpg";
-import Heading from "../components/Heading";
+import Hero from "./Hero";
+import BgHighway from "../stories/assets/bg-highway.jpg";
+import BgGirls from "../stories/assets/bg-girls.jpg";
+import Heading from "./Heading";
 
 export default {
-  title: "Hero",
+  title: "Components/Hero",
   component: Hero,
 };
 
