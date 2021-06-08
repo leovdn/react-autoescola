@@ -1,4 +1,5 @@
 import React from "react";
+import { text } from "@storybook/addon-knobs";
 
 import Hero from "./Hero";
 import BgHighway from "../stories/assets/bg-highway.jpg";
@@ -20,6 +21,7 @@ export const usage = () => (
 export const wishlist = () => (
   <Hero image={BgGirls}>
     <h1>
+      {text("Title", "Ganhe sua liberdade para ir e vir")}
       Ganhe sua <strong>liberdade</strong>
       <br />
       para ir e vir
