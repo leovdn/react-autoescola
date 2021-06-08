@@ -16,7 +16,16 @@ export const usage = () => (
 );
 
 export const wishlist = () => (
-  <Hero title="Ganhe sua liberdade para ir e vir" image={BgGirls}>
+  <Hero
+    title={
+      <span>
+        Ganhe sua <strong>liberdade</strong>
+        <br />
+        para ir e vir
+      </span>
+    }
+    image={BgGirls}
+  >
     <ul>
       <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
       <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
