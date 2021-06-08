@@ -75,9 +75,9 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  h4 {
+  h6 {
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 500;
 
     ${breakAt(BreakpointSize.lg)} {
       font-size: 1.25rem;
