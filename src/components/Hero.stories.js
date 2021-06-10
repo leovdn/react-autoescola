@@ -1,12 +1,13 @@
 import React from "react";
+import { text } from "@storybook/addon-knobs";
 
-import Hero from "../components/Hero";
-import BgHighway from "./assets/bg-highway.jpg";
-import BgGirls from "./assets/bg-girls.jpg";
-import Heading from "../components/Heading";
+import Hero from "./Hero";
+import BgHighway from "../stories/assets/bg-highway.jpg";
+import BgGirls from "../stories/assets/bg-girls.jpg";
+import Heading from "./Heading";
 
 export default {
-  title: "Hero",
+  title: "Components/Hero",
   component: Hero,
 };
 
@@ -20,6 +21,7 @@ export const usage = () => (
 export const wishlist = () => (
   <Hero image={BgGirls}>
     <h1>
+      {text("Title", "Ganhe sua liberdade para ir e vir")}
       Ganhe sua <strong>liberdade</strong>
       <br />
       para ir e vir
